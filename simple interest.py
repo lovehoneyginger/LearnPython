@@ -1,0 +1,8 @@
+print("Enter the principle amount")
+a = float(input())
+print("Enter the rate of interest")
+b = float(input())
+print("Enter the time period")
+c = float(input())
+d = a * ( 1 + (b*c)/100)
+print("The total amount : " + str(d))
